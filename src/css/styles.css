@@ -1,0 +1,19 @@
+html,body{ margin: 0px; padding: 0px;}
+/* Legend CSS */
+div.legend { background: #FFFFFF; padding: 15px; border-radius: 10px; -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75); box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75); }
+div.legend ul { margin: 0px; padding: 0px; }
+div.legend ul li { display: block; list-style: none; line-height:1; margin: 0px; padding: 0px; font-weight: bold; margin-bottom: 2px; }
+div.legend ul li span { display: inline-block; height: 15px; width: 15px; margin-right: 5px; }
+div.legend ul li.mag-0-1k span { background: #800026;}
+div.legend ul li.mag-1k-5k span { background: #bd0026;}
+div.legend ul li.mag-5k-10k span { background: #e31a1c;}
+div.legend ul li.mag-10k-20k span { background: #fc4e2a;}
+div.legend ul li.mag-20k-30k span { background: #fd8d3c;}
+div.legend ul li.mag-30k-40k span { background: #feb24c;}
+div.legend ul li.mag-40k-50k span { background: #fed976;}
+div.legend ul li.mag-50k span { background: #ffeda0;}
+div.legend ul li.mag-0 span { background: #07306b; }
+div.legend ul li.cMLS span{ background:rgba(39,0,240,1.00);}
+div.legend ul li.ncMLS span{ background: #000000;}
+div.legend ul li.cTech span{background:#01802f}
+div.legend ul li.cBroker span{background:rgba(255,237,0,1.00)}

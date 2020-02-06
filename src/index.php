@@ -11,7 +11,7 @@ echo cert_map();
 // Display map - cert_map() initializes map container and prepares data.
 function cert_map() {
   // Pulls certificate data from Google Doc and generates array	
-  $arrCSV = csvToArr( "https://docs.google.com/spreadsheets/d/e/2PACX-1vTLYgx6smmo4Ng7jc866p2gURbPjVfqQof50BWnhN53Q-kuv-QeJt47FJUXmuarm1a8j5W2ooQ0IocH/pub?gid=0&single=true&output=csv", ',' );
+  $arrCSV = csvToArr( "", ',' );
   // Pull OUID API data to generate array
   $arrOUID = ouidToArr( "https://www.reso.org/ouid/" );
   // Calls function to merge arrays by OUID	
